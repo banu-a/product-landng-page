@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap 4 Website Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="C://xampp/htdocs/indexhtml/profesyonel-web-sites/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600" rel="stylesheet" type="text/css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="C://xampp/htdocs/indexhtml/profesyonel-web-sites/script.js"></script>
+
+      </head>
+
+    <body>
+
+            <header class="jumbotron-fluid text-center">
+                <img id="base" class="img-fluid" src="https://png.pngtree.com/thumb_back/fw800/back_pic/05/11/01/75598f04c70fa87.jpg">
+            </header>
+    
+       <nav class="navbar navbar-expand-sm navbar-dark">
+             
+                <a class="navbar-brand" href="#">
+                    <span>T</span>he <span>M</span>akeup <span>S</span>tore
+                </a>
+           
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how_it_use">How It Use</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#make_up">Make Up</a>
+                    </li>
+                </ul>
+            </div>
+       </nav>
+
+       <div class="container">
+           <div class="row" id="about">
+               <div class="col-sm-1"></div>
+               <div class="col-sm-10">
+                   <h2>About Us</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lacinia augue. 
+                    Nullam ut magna est. Praesent tincidunt volutpat consequat. Nunc felis nulla, condimentum nec nisl eget, interdum 
+                    ultrices felis. Duis tincidunt euismod erat, quis ullamcorper felis ultrices a. Suspendisse 
+                    luctus rhoncus arcu et tempor. Praesent ut vehicula orci. Vivamus placerat turpis semper, 
+                    semper ante ac, scelerisque mi. Praesent eu urna in massa euismod porttitor vel et diam. 
+                    Phasellus auctor tellus in tellus feugiat mollis. Sed a dolor imperdiet, feugiat nunc at, bibendum dui. 
+                    Sed sagittis massa in nisl efficitur, nec porttitor sem semper. Aliquam vestibulum sit amet odio ut ornare.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lacinia augue. 
+                    Nullam ut magna est. Praesent tincidunt volutpat consequat. Nunc felis nulla,
+                    condimentum nec nisl eget, interdum ultrices felis. Duis tincidunt euismod erat, 
+                    quis ullamcorper felis ultrices a. Suspendisse luctus rhoncus arcu et tempor. Praesent ut 
+                    vehicula orci. Vivamus placerat turpis semper, semper ante ac, scelerisque mi. Praesent eu 
+                    urna in massa euismod porttitor vel et diam. Phasellus auctor tellus in tellus feugiat 
+                    mollis. Sed a dolor imperdiet, feugiat nunc at, bibendum dui. Sed sagittis massa 
+                    in nisl efficitur, nec porttitor sem semper. Aliquam vestibulum sit amet odio ut ornare.
+                    </p>
+               </div>
+               <div class="col-sm-1"></div>
+           </div>
+
+          <div class="container" id="subscribe">
+            <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-10">
+                <form>
+                  <div class="form-group">
+                    <ul class="tab-group">
+                      <li class="tab active"><a href="#signup">Sign Up</a></li>
+                      <li class="tab"><a href="#login">Log In</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="tab-content">
+                      <div id="signup">
+                        <div class="row">
+                          <div class="col-sm-1"></div>
+                          <div class="col-sm-10">
+                            <label>First Name<span class="req">*</span>
+                              <input type="text" class="form-control" id="name" required autocomplete="off"/>
+                            </label>
+                          </div>
+                          <div class="col-sm-1"></div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-1"></div>
+                          <div class="col-sm-10">
+                            <label>Last Name<span class="req">*</span>
+                              <input type="text" class="form-control" id="lname" required autocomplete="off"/>
+                            </label>
+                          </div>
+                          <div class="col-sm-1"></div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-1"></div>
+                          <div class="col-sm-10">
+                            <label>Email<span class="req">*</span>
+                              <input type="email" id="email" class="form-control" required autocomplete="off"/>
+                            </label>
+                          </div>
+                          <div class=col-sm-1></div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-1"></div>
+                          <div class="col-sm-10">
+                            <label>Password<span class="req">*</span>
+                              <input type="password" id="password" class="form-control" required autocomplete="off"/>
+                            </label>
+                          </div>
+                          <div class="col-sm-1"></div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-1"></div>
+                          <div class="col-sm-10">
+                            <button type="submit" class="btn">Get Started</button>
+                          </div>
+                          <div class="col-sm-1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="tab-content">
+                      <div id="login">
+                        <div class="row">
+                          <div class="col-sm-1"></div>
+                          <div class="col-sm-10">
+                            <label>Email<span class="req">*</span>
+                              <input type="email" class="form-control" required autocomplete="off"/>
+                            </label>
+                          </div>
+                          <div class="col-sm-1"></div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-1"></div>
+                          <div class="col-sm-10">
+                            <label>Password<span class="req">*</span>
+                              <input type="password" class="form-control" required autocomplete="off"/>
+                            </label>
+                          </div>
+                          <div class="col-sm-1"></div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-1"></div>
+                          <div class="col-sm-7"></div>
+                          <div class="col-sm-4">
+                            <a href="#" class="forgot">Forgot Password?</a>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-4"></div>
+                          <div class="col-sm-4">
+                            <button type="submit" class="btn">Log In</button>
+                          </div>
+                          <div class="col-sm-4"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-sm-1"></div>
+          </div>
+              
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10" id="how_it_use">
+                  <iframe id="iframe" class="img-fluid" src="https://www.youtube.com/embed/8kt33pzB8uw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+
+          <div id="make_up">
+              <div class="row">
+                <div class="col-sm-2"></div>
+              
+                <div class="col-sm-2 land">
+                  <img id="base" class="img-fluid" src="https://www.kozmela.com/UserFiles/Product/big/Flormar-Illuminating-Primer-Make-Up-Base-Makyaj-Bazi-30-ml-1.jpg" style=width:100%; height:auto;>
+                  <h4>Makyaj bazı</h4>
+                  <p class="price">₺39.99</p>
+                  <button class="btn">Buy</button>
+                </div>
+              
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2 land">
+                  <img id="base" class="img-fluid" src="https://www.kozmela.com/UserFiles/Product/big/Flormar-Mat-Touch-Foundation-Classic-Beige-Mat-Fondoten-No-M303-1.jpg" style=width:100%; height:auto;>           
+                  <h4>Foundation</h4>
+                  <p class="price">₺54.99</p>
+                  <button class="btn">Buy</button>
+                </div>
+                
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2 land"> 
+                  <img id="base" class="img-fluid" src="https://www.kozmela.com/UserFiles/Product/big/8690604558537.jpg" style="width:100%; height:auto;">
+                  <h4>Full Coverage Concealer</h4>
+                  <p class="price">₺29.99</p> 
+                  <button class="btn">Buy</button>           
+                </div>
+                <div class="col-sm-2"></div>
+              </div>
+               
+              <div class="row">
+                  <div class="col-sm-2"></div>
+                  <div class="col-sm-2 land">
+                    <img id="base" class="img-fluid" src="https://www.kozmela.com/UserFiles/Product/big/Flormar-Wet-Dry-Compact-Powder-Islak-Kuru-Pudra-No-W06-1.jpg" style="width:100%; height:auto;">
+		                <h4>Wet & Dry Compact Powder</h4>
+		                <p class="price">₺44.99</p>
+	                  <button class="btn">Buy</button>
+                  </div>
+
+                  <div class="col-sm-1"></div>
+                  <div class="col-sm-2 land">
+                    <img id="base" class="img-fluid" src="https://www.kozmela.com/UserFiles/Product/big/Flormar-Eyebrow-Pencil-Black-Kas-Kalemi-Siyah-No-404-1.jpg" style="width:100%; height:auto;">
+                    <h4>Eyebrow Pencil</h4>
+                    <p>₺9.99</p>
+                    <button class="btn">Buy</button>
+                  </div>
+
+                  <div class="col-sm-1"></div>
+                  <div class="col-sm-2 land">
+                    <img id="base" class="img-fluid" src="https://www.kullananlar.com.tr/wp-content/uploads/2017/07/flormar-goz-kalemi.jpeg" style="width:100%; height:auto;">
+                   	<h4>Smoky Eyes Waterproof Carbon Black Eyelıner</h4>
+		                <p class="price">₺19.99</p>
+		              <button class="btn">Buy</button>
+                  </div>
+
+                  <div class="col-sm-2"></div>
+            </div>
+              
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2 land">
+                <img id="base" class="img-fluid" src="https://www.kozmela.com/UserFiles/Product/big/Flormar-Color-Palette-Eyeshadow-Black-Dust-Far-5-li-No-05-1.jpg">
+		            <h4>Color Palette Eye Shadow</h4>
+		            <p class="price">₺39.99</p>
+		            <button class="btn">Buy</button>
+              </div> 
+
+              <div class="col-sm-1"></div>
+              <div class="col-sm-2 land">
+                <img id="base" class="img-fluid" src="https://www.kozmela.com/UserFiles/Product/big/Flormar-Magnificent-Eyelash-Extensions-Takma-Kirpik-No-102-1.jpg">
+		            <h4>Eyelash Extensions</h4>
+		            <p class="price">₺19.99</p>
+		            <button class="btn">Buy</button>
+              </div>
+
+              <div class="col-sm-1"></div>
+              <div class="col-sm-2 land">
+                <img id="base" class="img-fluid" src="https://www.kozmela.com/UserFiles/Product/big/Flormar-Revolution-Lengthening-Mascara-Black-Siyah-1.jpg">
+		            <h4>Revolution Mascara</h4>
+            		<p class="price">₺</p>
+	            	<button class="btn">Sold Out</button>
+              </div>
+
+              <div class="col-sm-2"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2 land">
+                <img id="base" class="img-fluid" src="https://eleven.no/files/f/flormar-blush-on_500x500.jpg">
+		            <h4>Blush-On</h4>
+		            <p class="price">₺29.99</p>
+		            <button class="btn">Buy</button>
+              </div>
+
+              <div class="col-sm-1"></div>
+              <div class="col-sm-2 land">
+                <img id="base" class="img-fluid" src="https://www.kozmela.com/UserFiles/Product/big/8690604111015.jpg">
+	            	<h4>Waterproof Lıplıner</h4>
+		            <p class="price">₺9.99</p>
+		            <button class="btn">Buy</button>
+              </div>
+
+              <div class="col-sm-1"></div>
+              <div class="col-sm-2 land">
+                <img id="base"  class="img-fluid" src="https://www.kozmela.com/UserFiles/Product/big/Flormar-Long-Wearing-Lipstick-Kalici-Ruj-No-L01-1.jpg">
+                <h4>Long Wearing Lıpstıck</h4>
+                <p class="price">₺29.99</p>
+                <button class="btn">Buy</button>
+              </div>
+              <div class="col-sm-2"></div>
+            </div>
+
+           </div>
+
+           <div class="footer">
+             <div class="col-sm-4"></div>
+             <div class="col-sm-4"></div>
+             <div class="col-sm-4">
+               
+                 <a href="#">Privacy</a>
+                 <a href="#">Terms</a>
+                 <a href="#">Contact</a>
+               
+             </div>
+           </div>
+           </div>
+
+
+
+
+
+      
+    
+       
+    </body>
+</html>

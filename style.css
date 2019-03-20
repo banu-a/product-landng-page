@@ -1,0 +1,214 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:  border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background: whitesmoke;
+  font-family: 'Titillium Web', sans-serif;
+}
+.navbar-expand-sm{
+    background-color: #83a2b7;
+}
+
+.navbar a.navbar-brand span{
+	font-size:28px;
+	font-weight:700;
+}
+
+.nav-link{
+    color:whitesmoke !important;
+}
+.img-fluid{
+    width:100%;
+    max-height: 400px;
+    cursor: pointer;
+    z-index: -10;
+}
+
+.container .row{
+    margin-top: 20px !important;
+}
+
+
+#iframe{
+  width:853px;
+  height:480px;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.land{
+    border-bottom:4px solid gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    -moz-box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 20px;
+}
+
+form{
+  background: rgb(123, 155, 177);
+  padding: 40px;
+  margin: 40px auto;
+  border-radius: 4px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.4);
+  -webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.4);
+  -moz-box-shadow:  0 4px 10px 4px rgba(19, 35, 47, 0.4);
+}
+
+.tab-group{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.tab-group:after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.tab-group li a{
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: #688497;
+  color: whitesmoke;
+  font-size: 20px;
+  float: left;
+  width:100%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -o-transition:  .5s ease;
+}
+
+.tab-group li a:hover{
+  background: #91346F;
+  color: whitesmoke;
+}
+
+.tab-group .active a{
+  background: #A9357E;
+  color: whitesmoke;
+}
+
+.tab-content > div:last-child{
+  display: none;
+}
+
+label{
+  color: whitesmoke;
+  
+  font-size:18px;
+  transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition:  all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-backface-visibility:hidden;
+}
+
+label.active{
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+  -moz-transform:translateY(50px);
+  -ms-transform:translateY(50px);
+  -o-transform:translateY(50px);
+  left:2px;
+  font-size: 14px;
+}
+
+label.active .req{
+  opacity:0.5;
+  color:#A9357E;
+}
+
+label.highlight{
+  color:whitesmoke;
+}
+
+.form-control{
+  font-size: 22px;
+  width:100% !important;
+  padding-top: 5px !important;
+  padding-right: 100px !important;
+  padding-left: 0;
+  background: none;
+  background-image: none;
+  border:2px solid rgb(172, 86,  140) !important;
+  border-radius:0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  transition: border-color .25s ease, box-shadow .25s ease;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  -moz-transition: border-color .25s ease, box-shadow .25s ease;
+  -o-transition:  border-color .25s ease, box-shadow .25s ease;
+}
+
+.form-control:focus{
+  outline: 0;
+  border-color: #A9357E;
+  width:100%;
+  transition: all 0.25s ease !important;
+  -webkit-transition: all 0.25s ease !important;
+  -moz-transition:  all 0.25s ease;
+  -o-transition:  all 0.25s ease;
+}
+
+.btn{
+  padding: 10px;
+  font-weight:600;
+  vertical-align: middle !important;
+  color:  whitesmoke !important;
+  background: #A9357E !important;
+  border:2px solid #A9357E !important;
+}
+
+a.forgot{
+  color:whitesmoke;
+  text-decoration: none;
+}
+
+a.forgot:hover{
+  color:whitesmoke;
+  text-decoration: none;
+}
+
+.footer{
+  padding:20px;
+  background: #83a2b7;
+  color:whitesmoke;
+  text-align: right !important;
+  width:100%;
+  margin-right: 0;
+}
+
+
+.footer a{
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: right !important;
+  padding:5px;
+
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color:whitesmoke;
+}
